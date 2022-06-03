@@ -29,4 +29,10 @@ Pada game ini, objektif yang player harus capai adalah bertahan hidup selama 7 h
 7. sistem uang
 8. loading screen
 
+## Instalation
+npm i
+npm start
+
+
 # video youtube
+https://youtu.be/ROdiFhBCzEs
