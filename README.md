@@ -30,8 +30,8 @@ Pada game ini, objektif yang player harus capai adalah bertahan hidup selama 7 h
 8. loading screen
 
 ## Instalation
-npm i
-npm start
+1. npm i
+2. npm start
 
 
 # video youtube
