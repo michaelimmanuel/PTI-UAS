@@ -1,0 +1,735 @@
+.game{
+    .background{
+        position: relative;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 800px;
+        overflow: hidden;
+    }
+
+    @media screen and (max-width: 768px){
+        .background{
+            height: 500px;
+        }
+    }
+
+    .relative{
+      position: relative;
+    }
+
+    .absolute{
+      position: absolute;
+    }
+        
+
+    .pagitempat1{
+        background: url("./img/pagitempat1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .malamtempat1{
+        background: url("./img/malamtempat1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .siangtempat1{
+        background: url("./img/siangtempat1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .soretempat1{
+        background: url("./img/soretempat1.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .pagitempat2{
+        background: url("./img/pagitempat2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .malamtempat2{
+        background: url("./img/malamtempat2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .siangtempat2{
+        background: url("./img/siangtempat2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .soretempat2{
+        background: url("./img/soretempat2.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .pagitempat2hujan{
+        background: url("./img/PagiHujan.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .malamtempat2hujan{
+        background: url("./img/malamHujan.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .siangtempat2hujan{
+        background: url("./img/SiangHujan.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .soretempat2hujan{
+        background: url("./img/SoreHujan.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .pagitempat3 , .siangtempat3, .soretempat3, .malamtempat3{
+        background: url("./img/tempat3.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .pagikantin, .siangkantin, .sorekantin, .malamkantin{
+        background: url("./img/kantin.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .pagiperpus, .siangperpus, .soreperpus, .malamperpust{
+        background: url("https://img.wallpapersafari.com/desktop/1920/1080/53/70/7qTrlt.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .pagikelas, .siangkelas, .sorekelas, .malamkelas{
+        background: url("./img/Kelas.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .pagitempat4{
+        background: url("./img/pagiKafe.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .siangtempat4{
+        background: url("./img/siangKafe.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .soretempat4{
+        background: url("./img/soreKafe.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .malamtempat4{
+        background: url("./img/malamKafe.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .pagitempat4hujan{
+        background: url("./img/PagiKafeHujan.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .siangtempat4hujan{
+        background: url("./img/SiangKafeHujan.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .soretempat4hujan{
+        background: url("./img/SoreKafeHujan.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+    .malamtempat4hujan{
+        background: url("./img/MalamKafeHujan.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
+
+
+    .character{
+        width: 250px;
+        height: 520px;
+    }
+
+    @media screen and (max-width: 820px){
+        .character{
+            width: 100px;
+            
+        }
+    }
+
+    @media screen and (max-width: 580px){
+        .character{
+            width: 120px;
+            height: 300px;
+        }
+    }
+      
+
+    .clock{
+        width: 200px;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: url("./img/clock.png") ;
+        background-color: #091921 ;
+        background-size: cover;
+        border: 4px solid #091921;
+        border-radius: 50%;
+        box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.05),
+                    inset 0 -10px 10px rgba(255, 255, 255, 0.05),
+                    0 10px 10px rgba(0, 0, 0, 0.05),
+                    inset 0 10px 10px rgba(0, 0, 0, 0.05);
+    }
+
+    .clock:before{
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background: white;
+        border-radius: 50%;
+        z-index: 1000;
+    }
+
+    .clock .hour, .clock .minute, .clock .second{
+        position: absolute;
+    }
+
+    .clock .hour, .hr{
+        width: 140px;
+        height: 140px;
+    }
+
+    .clock .minute, .min{
+        width: 160px;
+        height: 160px;
+    }
+
+    .hr, .min {
+        display: flex;
+        justify-content: center;
+        position: absolute;
+        border-radius: 50%;
+    }
+
+    .hr:before{
+        content: "";
+        position: absolute;
+        top: 20px;
+        width: 8px;
+        height: 55px;
+        background: red;
+        border-radius: 6px;
+        z-index: 10;
+    }
+
+    .min:before{
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 80px;
+        background: white;
+        border-radius: 6px 6px 0 0;
+        z-index: 11;
+    }
+
+    @media screen and (max-width: 520px){
+        .clock{
+            width: 150px;
+            height: 150px;
+        }
+
+        .clock .hour, .hr{
+            width: 140px;
+            height: 120px;
+        }
+
+        .clock .minute, .min{
+            width: 160px;
+            height: 120px;
+        }
+
+        .hr:before{
+            content: "";
+            position: absolute;
+            top: 20px;
+            width: 8px;
+            height: 40px;
+            background: red;
+            border-radius: 6px;
+            z-index: 10;
+        }
+
+        .min:before{
+            content: "";
+            position: absolute;
+            width: 4px;
+            height: 60px;
+            background: white;
+            border-radius: 6px 6px 0 0;
+            z-index: 11;
+        }
+    }
+
+    .popUp{
+        background-color: #091921 ;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 80%;
+    }
+
+    .popUp .content{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .popUp .quit{
+        top: 0;
+        right: 0;
+        position: absolute;
+    }
+
+    .salam{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30%;
+        z-index: 10;
+        text-align: center;
+        border-radius: 20px;
+        background-color: rgba(255, 255, 255, 0.618);
+    }
+
+    .handphone{
+      z-index: 1;
+      position: absolute;
+      left: 50%;
+      transform: translate(-50%);
+      width: 300px;
+    }
+
+    .relative .content{
+      z-index: 10;
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      transform: translate(-50%);
+      width: 200px;
+      height: 350px;
+      overflow: scroll;
+    }
+
+    @media screen and (max-width: 820px) {
+      .handphone{
+          top: 0;
+          left: 50%;
+          transform: translate(-50%);
+          position: absolute;
+          width: 150px;
+          height: 220px;
+        }
+
+        .relative .content{
+          position: absolute;
+          height: 150px;
+          font-size: 10px;
+          width: 120px;
+        }
+    }
+
+    @media screen and (max-width: 580px){
+        .handphone{
+          top: 0;
+          left: 50%;
+          transform: translate(-50%);
+          position: absolute;
+          width: 150px;
+          height: 220px;
+        }
+
+        .relative .content{
+          position: absolute;
+          height: 180px;
+          font-size: 10px;
+          width: 120px;
+        }
+    }
+
+    .popUpHp{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 30%;
+        z-index: 10;
+        color: black;
+        text-align: center;
+        
+    } 
+
+    .popUpHp .content{
+      z-index: 20;
+      width: 200px;
+      left: 50%;
+      transform: translate(-50%);
+      position: relative;
+      height: 300px;
+      overflow: scroll;
+    }
+
+    .bigHp{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 300px;
+    }
+    
+    .mati{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        height: 100%;
+        z-index: 10;
+        color: white;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .mati h1{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+    }
+
+    .game-display{
+        position: absolute;
+        left: 0;
+        bottom: 10%;
+        width: 100%;
+    }
+
+    .XO{
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        z-index: 100;
+        color: white;
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+}
+  
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+  }
+
+.Game {
+    width: 70px;
+    border-radius: 4cm;
+    height: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    border: none;
+    outline: none;
+    color: black;
+    background: wheat;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 4cm;
+  }
+  
+.Game:before {
+    content: '';
+    background: linear-gradient(90deg, #ff0000, #00eaff);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 4cm;
+  }
+  
+.Game:active {
+    color: wheat;
+  }
+  
+.Game:active:after {
+    background: transparent;
+  }
+
+.Game:hover:before {
+    opacity: 1;
+  }
+  
+.Game:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: wheat;
+    left: 0;
+    top: 0;
+    border-radius: 4cm;
+  }
+  
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+  }
+
+  .Eat {
+    width: 70px;
+    border-radius: 4px;
+    height: 50px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    color: black;
+    background: wheat;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 4cm;
+  }
+  
+  .Eat:before {
+    content: '';
+    background: linear-gradient(90deg, #ff0000, #00ff0d);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 4cm;
+  }
+  
+  .Eat:active {
+    color: wheat;
+  }
+  
+  .Eat:active:after {
+    background: transparent;
+  }
+  
+  .Eat:hover:before {
+    opacity: 1;
+  }
+  
+  .Eat:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: wheat;
+    left: 0;
+    top: 0;
+    border-radius: 4cm;
+  }
+  
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+  }
+
+  .Study {
+    width: 70px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: black;
+    background: wheat;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 4cm;
+  }
+  
+  .Study:before {
+    content: '';
+    background: linear-gradient(90deg, #ff0000, #5100ff);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 4cm;
+  }
+  
+  .Study:active {
+    color: wheat;
+  }
+  
+  .Study:active:after {
+    background: transparent;
+  }
+  
+  .Study:hover:before {
+    opacity: 1;
+  }
+  
+  .Study:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: wheat;
+    left: 0;
+    top: 0;
+    border-radius: 4cm;
+  }
+  
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+  }
+
+  .Sleep {
+    width: 70px;
+    border-radius: 4px;
+    height: 50px;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    outline: none;
+    color: black;
+    background: wheat;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 4cm;
+  }
+  
+  .Sleep:before {
+    content: '';
+    background: linear-gradient(90deg, #ff0000, #f6ff00);
+    position: absolute;
+    top: -2px;
+    left:-2px;
+    background-size: 400%;
+    z-index: -1;
+    filter: blur(5px);
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    animation: glowing 20s linear infinite;
+    opacity: 0;
+    transition: opacity .3s ease-in-out;
+    border-radius: 4cm;
+  }
+  
+  .Sleep:active {
+    color: wheat;
+  }
+  
+  .Sleep:active:after {
+    background: transparent;
+  }
+  
+  .Sleep:hover:before {
+    opacity: 1;
+  }
+  
+  .Sleep:after {
+    z-index: -1;
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: wheat;
+    left: 0;
+    top: 0;
+    border-radius: 4cm;
+  }
+  
+  @keyframes glowing {
+    0% { background-position: 0 0; }
+    50% { background-position: 400% 0; }
+    100% { background-position: 0 0; }
+  }
