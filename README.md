@@ -4,7 +4,7 @@
 - Michael Immanuel Herijanto (54631)
 - Koong Hiap (55136)
 - Christsen Alston Angello (53444)
-- Wahyu Dwi Setyo Wibowo ()
+- Wahyu Dwi Setyo Wibowo (55320)
 
 ## Game
 Pada game ini, objektif yang player harus capai adalah bertahan hidup selama 7 hari dengan uang $100. 
